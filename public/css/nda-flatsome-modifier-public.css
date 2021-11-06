@@ -1,0 +1,50 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ @keyframes ballons {
+  100% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  0% {
+    background-position: 500px 1000px, 400px 400px, 400px 400px;
+  }
+}
+@-webkit-keyframes ballons {
+  100% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  0% {
+    background-position: 500px 1000px, 400px 800px, 300px 300px;
+  }
+}
+.effect-sliding-glass {
+  background-image: url("../img/effects/ballons1.png"),
+    url("../img/effects/ballons2.png");
+  -webkit-animation: ballons 10s linear infinite;
+  animation: ballons 10s linear infinite;
+}
+
+@keyframes hearts {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  100% {
+    background-position: 500px 1000px, 400px 400px, 400px 400px;
+  }
+}
+@-webkit-keyframes hearts {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  100% {
+    background-position: 500px 1000px, 400px 800px, 300px 300px;
+  }
+}
+.effect-sparkle {
+  background-image: url("../img/effects/hearts1.png"),
+    url("../img/effects/hearts2.png");
+  -webkit-animation: hearts 10s linear infinite;
+  animation: hearts 10s linear infinite;
+}

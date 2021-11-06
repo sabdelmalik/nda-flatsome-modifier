@@ -1,0 +1,2 @@
+confetti1 is 500 x 500
+confetti2 is 400 x 400
