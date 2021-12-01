@@ -48,3 +48,7 @@
   -webkit-animation: hearts 10s linear infinite;
   animation: hearts 10s linear infinite;
 }
+
+.widget_price_filter, .woocommerce-ordering{
+  display: none;
+}
